@@ -153,12 +153,13 @@ span {
 
 /* Sobre Mi */
 .sobremi_texto p {
+  display: flex;
+  justify-content: center;
   font-size: 1.2rem;
   max-width: 800px;
   margin: 0 auto;
   color: #666;
   margin: 20px 20px 20px 20px;
-  text-align: justify;
 }
 
 /* Contacto */
