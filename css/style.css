@@ -152,9 +152,12 @@ span {
 }
 
 /* Sobre Mi */
-.sobremi_texto p {
-  display: flex;
+
+.sobremi_texto {
+    display: flex;
   justify-content: center;
+}
+.sobremi_texto p {
   font-size: 1.2rem;
   max-width: 800px;
   margin: 0 auto;
