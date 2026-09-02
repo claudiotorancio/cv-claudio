@@ -154,7 +154,7 @@ span {
 /* Sobre Mi */
 
 .sobremi_texto {
-    display: flex;
+  display: flex;
   justify-content: center;
 }
 .sobremi_texto p {
@@ -185,4 +185,14 @@ footer {
   padding: 1.5rem 0;
   text-align: center;
   font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .img_logo {
+    display: none;
+  }
+
+  .ul_nav_header li a {
+    font-size: 16px;
+  }
 }
