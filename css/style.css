@@ -175,7 +175,6 @@ footer {
 /* Configuracion para responsividad en dispositivos moviles */
 @media (max-width: 480px) {
   .img_logo {
-    display: none;
   }
 
   .ul_nav_header li a {
