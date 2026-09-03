@@ -33,7 +33,7 @@ header {
 
 .ul_nav_header li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 10px;
 }
 
 .ul_nav_header li a {
