@@ -15,7 +15,8 @@ body {
 /* header */
 
 header {
-  background-color: #2c3e50;
+  background-image: url("../img/banner3.jpg");
+  background-size: cover;
   padding: 10px;
 }
 
@@ -24,8 +25,10 @@ header {
 }
 
 .img_logo {
-  width: 50px;
-  margin: 15px;
+  width: 100px;
+  background-color: black;
+  padding: 15px;
+  border-radius: 22%;
 }
 
 .ul_nav_header li {
@@ -35,8 +38,9 @@ header {
 
 .ul_nav_header li a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 16px;
+  font-weight: 600;
 }
 
 /* Perfil */
@@ -135,10 +139,10 @@ span {
 
 .sobremi_texto {
 }
+
 .sobremi_texto p {
   font-size: 1.2rem;
-  max-width: 800px;
-  margin: 0 auto;
+  margin: auto;
   color: #666;
   margin: 20px 20px;
   text-align: justify;
